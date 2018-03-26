@@ -1,0 +1,20 @@
+p {
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid grey;
+}
+dl {
+  padding: 10px;
+}
+dt, dd {
+  float: left;
+  font-size: 20px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #eee;
+}
+dt {
+  clear: both;
+  width: 140px;
+  background-color: #ccc;
+}

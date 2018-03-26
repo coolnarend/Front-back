@@ -1,0 +1,45 @@
+<p>Sandbox Component HTML : 025 Using Pipes</p>
+
+<dl>
+  <dt>date pipe</dt>
+  <dd>My birthday is {{birthday | date}}</dd>
+
+  <dt>date format pipe</dt>
+  <dd>My birthday is {{birthday | date:"dd/MM/yyyy"}}.</dd>
+
+  <dt>date format pipe</dt>
+  <dd>My birth date is {{birthday | date:"dd"}}.</dd>
+
+  <dt>date format pipe</dt>
+  <dd>My birth month is {{birthday | date:"MM"}}.</dd>
+
+  <dt>date format pipe</dt>
+  <dd>My birth year is {{birthday | date:"yyyy"}}.</dd>
+
+  <dt>uppercase pipe</dt>
+  <dd>I love {{'cake' | uppercase}}.</dd>
+
+  <dt>lowercase pipe</dt>
+  <dd>I HATE {{'CATS' | lowercase}}.</dd>
+
+  <dt>date format and uppercase pipe</dt>
+  <dd>My birthday is {{birthday | date | uppercase}}.</dd>
+
+  <dt>lowercase pipe</dt>
+  <dd>I HATE {{'CATS' | lowercase}}.</dd>
+
+  <dt>currency pipe</dt>
+  <dd>Your total is {{total * fee | currency}}.</dd>
+
+  <dt>currency pipe</dt>
+  <dd>Your total is {{total * fee | currency: 'GBP'}}.</dd>
+
+  <dt>currency pipe</dt>
+  <dd>Your total is {{total * fee | currency: 'INR'}}.</dd>
+
+  <dt>percent pipe</dt>
+  <dd>Our fee is {{ per | percent}}.</dd>
+
+</dl>
+<br style="clear: both" >
+<p>Note: You can create your own custom pipes as and when required, the above mentioned are ones predefined by the Angular.</p>

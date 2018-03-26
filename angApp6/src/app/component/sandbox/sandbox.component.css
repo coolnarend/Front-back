@@ -1,0 +1,26 @@
+p {
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid grey;
+}
+li {
+  font-size: 24px;
+}
+.fancyClass {
+  color: red;
+  font-style: italic;
+  text-decoration: underline;
+  font-size: 32px;
+}
+.nonFancyClass {
+  color: blue;
+  font-style: normal;
+  text-decoration: none;
+  font-size: 32px;
+}
+.showElem {
+  display: block;
+}
+.hideElem {
+  display: none;
+}

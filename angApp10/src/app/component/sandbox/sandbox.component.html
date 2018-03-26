@@ -1,0 +1,46 @@
+<p>Sandbox Component HTML : 029 Keyboard Input Events</p>
+
+<div>
+  <label>Change Text: </label>
+  <input type="text" (keyup)="changeText($event)" placeholder="change text" value={{text}}>
+  <h2>{{text}}</h2>
+</div>
+
+<hr>
+<br>
+
+<div>
+  <label>Keyup event: </label>
+  <input type="text" (keyup)="fireEvent($event)" placeholder="Keyup event">
+</div>
+
+<div>
+  <label>Keydown event: </label>
+  <input type="text" (keydown)="fireEvent($event)" placeholder="Keydown event">
+</div>
+
+<div>
+    <label>Keypress event: </label>
+    <input type="text" (keypress)="fireEvent($event)" placeholder="Keypress event">
+</div>
+
+<div>
+  <label>Focus event: </label>
+  <input type="text" (focus)="fireEvent($event)" placeholder="Focus event">
+</div>
+
+<div>
+  <label>Blur event: </label>
+  <input type="text" (blur)="fireEvent($event)" placeholder="Blur event">
+</div>
+
+<div>
+  <label>Cut event: </label>
+  <input type="text" (cut)="fireEvent($event)" placeholder="Cut event">
+</div>
+
+<div>
+  <label>Copy event: </label>
+  <input type="text" (copy)="fireEvent($event)" placeholder="Copy event">
+</div>
+

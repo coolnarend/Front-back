@@ -1,0 +1,37 @@
+<h2>Hello,
+
+  <!-- If statement true : run this -->
+  <!-- <span *ngIf="conditionFlag">{{ present }}</span>-->
+  <!-- If statement false : run this -->
+  <!-- <span *ngIf="!conditionFlag">{{ absent }}</span>-->
+
+  <!-- Alternative way using ng-template -->
+  <!--
+    <span *ngIf="conditionFlag; else notpresent">{{ present }}</span>
+    <ng-template #notpresent>{{ absent }}</ng-template>
+  -->
+
+  <!-- Alternative way using ternary operator -->
+  <p>
+    Hello, {{ conditionFlag ? present : absent }}
+  </p>
+
+  <hr>
+
+  <h3>Switch case here:</h3>
+  <div [ngSwitch]="greeting">
+      <div *ngSwitchCase="'1'">
+          Hello World!
+      </div>
+      <div *ngSwitchCase="'2'">
+          Hi World!
+      </div>
+      <div *ngSwitchCase="'3'">
+          Hey World!
+      </div>
+      <div *ngSwitchDefault>
+          Wonderfull World!
+      </div>
+  </div>
+
+</h2>

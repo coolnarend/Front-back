@@ -1,0 +1,31 @@
+<h2>Sandbox Component HTML</h2>
+
+<!-- 3 methods to bind properties -->
+  <p>3 methods to bind properties</p>
+  <div class="pull-left">
+    <h4>Method 1</h4>
+    <span>&lt;img src="&#x0007B; imageUrl &#125;&#125;" /&gt;</span>
+    <br>
+    <br>
+    <img src="{{imageUrl}}" />
+  </div>
+  <div class="pull-left">
+    <h4>Method 2</h4>
+    <span>&lt;img [src]="imageUrl" /&gt;</span>
+    <br>
+    <br>
+    <img [src]="imageUrl" />
+  </div>
+  <div class="pull-left">
+    <h4>Method 3</h4>
+    <span>&lt;img bind-src="imageUrl" /&gt;</span>
+    <br>
+    <br>
+    <img bind-src="imageUrl" />
+  </div>
+  <br style="clear:both">
+  <p><span [textContent]="'imageUrl is '+ imageUrl"></span></p>
+
+<h2>Create Post</h2>
+<p [hidden]="isUnchanged">Post has been changed, please save.</p>
+<button class="btn-primary" [disabled]="isUnchanged">Save</button>

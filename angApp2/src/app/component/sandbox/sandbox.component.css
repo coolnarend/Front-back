@@ -1,0 +1,21 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+p, li {
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid grey;
+}
+li {
+  list-style-type: none;
+  margin: 5px 0;
+  border-radius: 25px;
+  font-style: italic;
+  font-weight: bold;
+  font-size: 20px;
+}
+li span {
+  color: maroon;
+  font-style: initial;
+}

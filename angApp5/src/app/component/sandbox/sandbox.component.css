@@ -1,0 +1,12 @@
+p {
+  background-color: #eee;
+  padding: 10px;
+  border: 1px solid grey;
+}
+.special {
+  color: green;
+}
+.saveable {
+  text-transform: uppercase;
+}
+

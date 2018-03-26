@@ -1,0 +1,15 @@
+<p>Sand box component working: 024 Style Binding ngStyle</p>
+
+<ul>
+
+  <li [style.font-size]="isSpecial ? '32px' : '22px'">Font size depends on isSpecial. (Applying conditional css properties on a boolean.)</li>
+
+  <li [ngClass]="isSpecial ? 'fancyClass' : 'nonFancyClass'">fancyClass Activated. (Applying conditional css class on element on a boolean.)</li>
+
+  <li [ngClass]="!isSpecial ? 'fancyClass' : 'nonFancyClass'">nonFancyClass Activated. (Applying conditional css class on element on a boolean.)</li>
+
+  <li [ngClass]="isSpecial ? 'showElem' : 'hideElem'">nonFancyClass Activated. (Applying conditional css class on element on a boolean to show hide an element.)</li>
+
+  <li [ngStyle]="currentStyles">CSS properties applied. (This element has CSS properties applied on the basis of multiple boolean conditions.)</li>
+
+</ul>
