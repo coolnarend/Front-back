@@ -52,9 +52,6 @@ faqapp : 046 Setup Navbar  Question List
 
 
 
-Maneesha Ahir
-
-
 
 
 
