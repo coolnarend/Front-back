@@ -1,0 +1,8 @@
+/* You can add global styles to this file, and also import other style files */
+
+.card-text {
+  padding: 0.75rem 1.25rem;
+}
+.card, .navbar {
+  margin-bottom: 20px;
+}
