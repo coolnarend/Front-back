@@ -40,6 +40,8 @@ angApp20 : 043 Working With Routes
 
 angApp21 : 044 Params  ActivatedRoute
 
+angApp22: Components deep drive
+
 -------------
 08 FAQ App Project
 
@@ -49,12 +51,3 @@ faqapp : 046 Setup Navbar  Question List
 
 
 -------------
-
-
-
-
-
-
-
-
- 
