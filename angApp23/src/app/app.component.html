@@ -1,0 +1,20 @@
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" (click)="loadingCont()">Loading</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="errorCont()">Error Content</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" (click)="noCont()">No Data</a>
+        </li>
+      </ul>
+    </div>
+    <div class="col-xs-12">
+      <app-message [message]="CurrentStatus"></app-message>      
+    </div>
+  </div>
+</div>

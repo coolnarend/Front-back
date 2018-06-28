@@ -1,0 +1,26 @@
+<div class="status-center-wrap">
+
+  <div *ngIf="message!=='Success'">
+    <div class="status-center">
+  
+      <div *ngIf="message === 'Loading'">
+        <div class="slb-loading-spinner">Loading Content…</div>
+      </div>
+  
+      <div *ngIf="message === 'NoData'">
+        <span>
+          <p>No data to display.</p>
+        </span>
+      </div>
+  
+      <div *ngIf="message === 'Error'">
+        <span>
+          <p class="error-loading-message">Error loading data. Please contact your administrator.</p>
+        </span>
+      </div>
+  
+    </div>
+  </div>
+  
+  
+  </div>

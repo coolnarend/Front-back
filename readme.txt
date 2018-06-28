@@ -42,6 +42,8 @@ angApp21 : 044 Params  ActivatedRoute
 
 angApp22: Components deep drive
 
+angApp23: Conditional messages using child components and @Input
+
 -------------
 08 FAQ App Project
 
